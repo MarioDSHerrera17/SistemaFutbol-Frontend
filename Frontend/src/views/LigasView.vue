@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen text-white px-6">
     <!-- Barra superior -->
-    <header class="flex items-center justify-between py-4 border-b border-gray-700">
+    <header class="flex items-center justify-between py-4 border-b border-gray-700 bg-orange-600">
       <div class="flex items-center space-x-2">
         <img :src="Logo" alt="Logo" class="h-8 w-8" />        
         <h1 class="text-lg font-bold">SIGOL</h1>
@@ -42,7 +42,7 @@
         Ligas Destacadas
       </h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="bg-gray-800 rounded-lg p-4 shadow hover:scale-105 transition">          
+        <div class="bg-orange-800 rounded-lg p-4 shadow hover:scale-105 transition">          
           <img :src="Premier" alt="Liga Varonil" class="h-16 mx-auto" />        
           <h4 class="text-center mt-2 font-semibold">Liga Varonil</h4>
         </div>
@@ -63,7 +63,7 @@
         Últimas Ligas Consultadas
       </h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="bg-gray-800 rounded-lg p-4 shadow hover:scale-105 transition">          
+        <div class="bg-orange-800 rounded-lg p-4 shadow hover:scale-105 transition">          
           <img :src="Premier" alt="Liga Varonil" class="h-16 mx-auto" />        
           <h4 class="text-center mt-2 font-semibold">Liga Varonil</h4>
         </div>
