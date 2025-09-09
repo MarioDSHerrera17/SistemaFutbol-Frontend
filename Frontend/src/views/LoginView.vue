@@ -30,7 +30,7 @@
             <input 
               v-model="password" 
               type="password" 
-              placeholder="••••••••"
+              placeholder="password"
               class="w-full p-2 rounded-lg bg-gray-700 text-white border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500" 
               required 
             />
@@ -67,10 +67,7 @@
           </button>
           <button class="bg-white p-2 rounded-full shadow-md">
             <img src="https://www.svgrepo.com/show/475647/facebook-color.svg" class="w-6 h-6" />
-          </button>
-
-          <!--<button class="bg-white p-2 rounded-full shadow-md">
-            <img :src="AppleIcon" alt="Apple" class="w-6 h-6" />  --><!-- ✅ Corregido -->
+          </button>          
           <button class="bg-white p-2 rounded-full shadow-md">
             <img src="https://www.svgrepo.com/show/511330/apple-173.svg" class="w-6 h-6" />
           </button>          

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen text-white px-6">
+  <div class="text-white px-6">
     <!-- Barra superior -->
     <header class="flex items-center justify-between py-4 border-b border-gray-700 bg-orange-600">
       <div class="flex items-center space-x-2">
